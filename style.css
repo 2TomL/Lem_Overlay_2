@@ -7,8 +7,8 @@
 
 .lemonz-text {
     position: absolute;
-    left: 8vw;
-    top: 20vh;
+    right: 20vw;
+    bottom: 12vh;
     font-family: 'Cyborg Punk', sans-serif;
     font-size: 3vw;
     color: #FFD600;
