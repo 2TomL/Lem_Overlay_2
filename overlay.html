@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBS Overlay - Loading Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="overlay-container">
+                <div class="lemonz-text">
+                        LEM
+                        <img src="assets/o.png" alt="O" class="lemonz-o">
+                        NZ
+                </div>
+                <img src="assets/loading game.png" alt="Loading Game" class="overlay-image">
+        </div>
+        <!-- Phaser canvas voor explosies -->
+        <div id="explosion-canvas" style="position: absolute; left: 0; top: 0; width: 50vw; height: 100vh; pointer-events: none; z-index: 10;"></div>
+        <script src="https://cdn.jsdelivr.net/npm/phaser@2.6.2/build/phaser.min.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>

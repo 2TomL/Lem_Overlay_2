@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Cyborg Punk';
+    src: url('assets/Cyborg Punk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lemonz-text {
+    position: absolute;
+    left: 8vw;
+    top: 20vh;
+    font-family: 'Cyborg Punk', sans-serif;
+    font-size: 3vw;
+    color: #FFD600;
+    text-shadow: 2px 2px 8px #7A5C00, 0 0 16px #FFEF8B;
+    pointer-events: none;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 0.08vw;
+}
+
+.lemonz-o {
+    width: 5vw;
+    height: 5vw;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.2vw;
+    filter: drop-shadow(2px 2px 8px #7A5C00) drop-shadow(0 0 16px #FFEF8B);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent !important;
+    overflow: hidden;
+}
+
+.overlay-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.overlay-image {
+    width: 100vw;
+    height: auto;
+    max-width: 100vw;
+    object-fit: cover;
+    background: transparent;
+}
