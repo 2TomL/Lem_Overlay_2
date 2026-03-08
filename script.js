@@ -28,8 +28,8 @@ function create() {
 }
 function createSprite(x, y, r, f) {
 	var sprite = game.add.sprite(x, y, 'ms');
-	sprite.width = 500;
-	sprite.height = 500;
+	sprite.width = 256;
+	sprite.height = 256;
 	sprite.angle = r;
 	var anim = sprite.animations.add('boom');
 	anim.frame = f;
